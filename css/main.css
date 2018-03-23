@@ -90,7 +90,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-    color: #0087cc;
+    color: #012653;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -3331,12 +3331,13 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 1rem 0 1rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
+    background-color: #012653;
 }
 
 footer h4 {
