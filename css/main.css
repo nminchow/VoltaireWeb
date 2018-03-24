@@ -1946,7 +1946,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-social span {
     color: #CE1127;
     right: 4.5rem;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     opacity: 0;
     visibility: hidden;
     -webkit-transform: scale(0);
@@ -1955,6 +1955,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     -webkit-transform-origin: 100% 50%;
     -ms-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
+    white-space: nowrap;
+    word-wrap: none;
 }
 
 .home-social li:hover span {
@@ -3466,7 +3468,7 @@ footer .row {
  * ## footer bottom
  * --------------------------------------------------------------- */
 .footer-bottom {
-    margin-top: 5.4rem;
+    margin-top: 30rem;
     text-align: center;
     font-size: 14px;
 }
