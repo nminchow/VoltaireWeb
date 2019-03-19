@@ -1,3 +1,5 @@
+@import url("../fonts.css");
+
 * {
   box-sizing: border-box;
 }
@@ -118,6 +120,7 @@ body {
 }
 
 .common-SuperTitle {
+  font-family: "montserrat-medium", sans-serif;
   font-weight: 300;
   font-size: 45px;
   line-height: 60px;
@@ -162,11 +165,11 @@ body {
 }
 
 .common-Link:hover {
-  color: #32325d;
+  color: #40BAEF;
 }
 
 .common-Link:active {
-  color: #000;
+  color: #40BAEF;
 }
 
 .common-Link--arrow:after {

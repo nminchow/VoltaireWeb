@@ -1,7 +1,7 @@
 'use strict';
 
 var stripe = Stripe('pk_test_1QdEdh9nLMskgZnlnC0gAeax');
-var submit_url = 'http://127.0.0.1:3000/enroll';
+var submit_url = 'https://r47sbe6guj.execute-api.us-east-1.amazonaws.com/Prod/enroll';
 
 function registerElements(elements, exampleName) {
   var formClass = '.' + exampleName;
