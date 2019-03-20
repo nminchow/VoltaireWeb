@@ -1,6 +1,6 @@
 'use strict';
 
-var stripe = Stripe('pk_test_1QdEdh9nLMskgZnlnC0gAeax');
+var stripe = Stripe('pk_live_lKz2kX2wKtNZnVZKYrQuybru');
 var submit_url = 'https://r47sbe6guj.execute-api.us-east-1.amazonaws.com/Prod/enroll';
 
 function registerElements(elements, exampleName) {
