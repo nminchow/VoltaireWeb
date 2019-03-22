@@ -37,6 +37,10 @@
 
   card.mount("#example4-card");
 
+  var urlParams = new URLSearchParams(window.location.search);
+  var type = urlParams.get('type');
+  var amount = type === "l" ? 1200 : 600;
+
   /**
    * Payment Request Element
    */
@@ -44,7 +48,7 @@
     country: "US",
     currency: "usd",
     total: {
-      amount: 300,
+      amount: amount,
       label: "Per Month"
     }
   });
