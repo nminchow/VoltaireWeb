@@ -39,7 +39,7 @@
 
   var urlParams = new URLSearchParams(window.location.search);
   var type = urlParams.get('type');
-  var amount = type === "l" ? 1200 : 600;
+  var amount = type === "l" ? 900 : 300;
 
   /**
    * Payment Request Element
