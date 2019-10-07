@@ -2,8 +2,8 @@
   /* background-color: #f6f9fc; */
 }
 
-img.stripe-badge {
-  padding-top: 48px !important;
+a.stripe-badge {
+  margin-top: 58px !important;
 }
 
 .example.example4 * {

@@ -142,6 +142,8 @@ function registerElements(elements, exampleName) {
         example.classList.remove('submitting');
         // Otherwise, un-disable inputs.
         enableInputs();
+        error.classList.add('visible');
+        errorMessage.innerText = result.error.message;
       }
     });
   });
