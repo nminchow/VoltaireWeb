@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.globalContent {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+  color: white;
+  text-align: center;
+  font-family: Roboto, "Open Sans", "Segoe UI", sans-serif;
+  z-index: 1;
+  font-size: medium;
+}
+#terms {
+  font-size: small;
+}
